@@ -1,4 +1,4 @@
-async function Page() {
+export default  async function Page() {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
 
@@ -22,4 +22,4 @@ async function Page() {
   );
 }
 
-export default Page;
+

@@ -17,7 +17,7 @@ export default async function homeCard() {
             <p><span className="font-bold">Username:</span> {username}</p>
             <p><span className="font-bold"> Email:</span>{email}</p>
             <p><span className="font-bold">Phone:</span> {phone}</p>
-          <Link href={`/users/${id}`} className='btn bg-linear-to-bl from-violet-500 to-fuchsia-900 text-white'>Details <FaArrowCircleRight /></Link>
+          <Link href={`/user-card/${id}`} className='btn bg-linear-to-bl from-violet-500 to-fuchsia-900 text-white'>Details <FaArrowCircleRight /></Link>
           </div>
         ))}
       </div>
